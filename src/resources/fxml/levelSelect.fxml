@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="640.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/21.0.5" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.LevelSelectController">
+   <children>
+      <ImageView fitHeight="640.0" fitWidth="960.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/index.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="level1" fitHeight="80.0" fitWidth="200.0" layoutX="130.0" layoutY="190.0" onMouseClicked="#mouseClickedLevel1" onMouseEntered="#mouseEnteredLevel1" onMouseExited="#mouseExitedLevel1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/level1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="level2" fitHeight="80.0" fitWidth="200.0" layoutX="380.0" layoutY="190.0" onMouseClicked="#mouseClickedLevel2" onMouseEntered="#mouseEnteredLevel2" onMouseExited="#mouseExitedLevel2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/level2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="level3" fitHeight="80.0" fitWidth="200.0" layoutX="630.0" layoutY="190.0" onMouseClicked="#mouseClickedLevel3" onMouseEntered="#mouseEnteredLevel3" onMouseExited="#mouseExitedLevel3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/level3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="level4" fitHeight="80.0" fitWidth="200.0" layoutX="130.0" layoutY="370.0" onMouseClicked="#mouseClickedLevel4" onMouseEntered="#mouseEnteredLevel4" onMouseExited="#mouseExitedLevel4" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/level4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="level5" fitHeight="80.0" fitWidth="200.0" layoutX="380.0" layoutY="370.0" onMouseClicked="#mouseClickedLevel5" onMouseEntered="#mouseEnteredLevel5" onMouseExited="#mouseExitedLevel5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/level5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="level6" fitHeight="80.0" fitWidth="200.0" layoutX="630.0" layoutY="370.0" onMouseClicked="#mouseClickedLevel6" onMouseEntered="#mouseEnteredLevel6" onMouseExited="#mouseExitedLevel6" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/level6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="level7" fitHeight="50.0" fitWidth="73.0" layoutX="873.0" layoutY="577.0" onMouseClicked="#mouseClickedLevel7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Index.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

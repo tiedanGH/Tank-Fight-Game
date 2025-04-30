@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="640.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/21.0.5" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.LevelClearController">
+   <children>
+   	  <ImageView fitHeight="640.0" fitWidth="960.0">
+         <image>
+            <Image url="@../images/index.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="toIndex" fitHeight="89.0" fitWidth="347.0" layoutX="623.0" layoutY="501.0" onMouseClicked="#mouseClickedToIndex" onMouseEntered="#mouseEnteredToIndex" onMouseExited="#mouseExitedToIndex" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/returnToIndex.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="600.0" fitWidth="627.0">
+         <image>
+            <Image url="@../images/levelClear.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

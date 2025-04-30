@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="640.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/21.0.5" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.VictoryController">
+   <children>
+      <ImageView fitHeight="640.0" fitWidth="960.0">
+         <image>
+            <Image url="@../images/victory.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="toIndex" fitHeight="114.0" fitWidth="400.0" layoutX="280.0" layoutY="483.0" onMouseClicked="#mouseClickedToIndex" onMouseEntered="#mouseEnteredToIndex" onMouseExited="#mouseExitedToIndex" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/returnToIndex.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="toNextLevel" fitHeight="109.0" fitWidth="553.0" layoutX="222.0" layoutY="384.0" onMouseClicked="#mouseClickedToNextLevel" onMouseEntered="#mouseEnteredToNextLevel" onMouseExited="#mouseExitedToNextLevel" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/NextLevel.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="640.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/21.0.5" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.DefeatedController">
+   <children>
+      <ImageView fitHeight="640.0" fitWidth="960.0">
+         <image>
+            <Image url="@../images/defeated.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tryAgain" fitHeight="85.0" fitWidth="278.0" layoutX="353.0" layoutY="387.0" onMouseClicked="#mouseClickedTryAgain" onMouseEntered="#mouseEnteredTryAgain" onMouseExited="#mouseExitedTryAgain" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/tryAgain.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="toIndex" fitHeight="109.0" fitWidth="400.0" layoutX="289.0" layoutY="472.0" onMouseClicked="#mouseClickedToIndex" onMouseEntered="#mouseEnteredToIndex" onMouseExited="#mouseExitedToIndex" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/returnToIndex.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="levelInfo" fill="red" layoutX="375.0" layoutY="380.0" style="-fx-font-size: 36px; -fx-font-weight: bold;" text=" " />
+   </children>
+</AnchorPane>
